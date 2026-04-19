@@ -2,7 +2,7 @@
 
 This project implements a web-based intrusion detection system that identifies malicious patterns in network data using classical string matching algorithms. It focuses on demonstrating algorithmic efficiency and comparative analysis as part of Design and Analysis of Algorithms (DAA).
 
-## 🚀 Features
+##  Features
 
 - Detection of attack patterns (e.g., SQL injection, XSS) in input data
 - Implementation of:
@@ -16,7 +16,7 @@ This project implements a web-based intrusion detection system that identifies m
 - Graphical analysis of input size vs execution time
 - Clean web interface for interactive testing
 
-## 🧠 Algorithms Used
+## Algorithms Used
 
 ### 1. Naive String Matching
 Checks for pattern occurrence by brute-force comparison.  
@@ -30,7 +30,7 @@ Time Complexity: O(n + m)
 Uses hashing and rolling hash technique for efficient matching.  
 Average Time Complexity: O(n + m)
 
-## 📊 Performance Analysis
+##  Performance Analysis
 
 The system compares:
 - Execution time (in milliseconds)
@@ -39,13 +39,13 @@ The system compares:
 
 Results are visualized using graphs to highlight differences between algorithms.
 
-## 🖥️ Tech Stack
+## Tech Stack
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python (Flask)
 - Visualization: Matplotlib / Chart.js
 
-## 📂 Project Structure
+##  Project Structure
 project/
 │── app.py
 │── algorithms/
@@ -60,17 +60,17 @@ project/
 │ ├── sample_inputs.txt
 
 
-## 📌 Conclusion
+##  Conclusion
 
 KMP performs more efficiently than the naive approach by eliminating redundant comparisons, while Rabin-Karp provides efficient average-case performance using hashing. The project demonstrates how classical DAA techniques can be applied to real-world security problems.
 
-## 📎 Future Improvements
+##  Future Improvements
 
 - Integration with real-time packet capture
 - Addition of Boyer-Moore algorithm
 - Enhanced visualization and analytics dashboard
 
-## 👤 Author
+## Author
 
 Ramya   
 B.Tech CSE – DAA Project
